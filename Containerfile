@@ -1,6 +1,6 @@
 FROM docker.io/alpine:3 AS build
 ARG TARGETARCH
-ARG PODMAN_VERSION=6.0.2
+ARG PODMAN_VERSION=6.1.4
 
 RUN apk add curl ca-certificates tar gzip
 
